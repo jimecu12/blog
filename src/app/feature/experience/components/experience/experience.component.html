@@ -1,0 +1,11 @@
+
+<div class="experience-body">
+  <h3>Experiencia Laboral</h3>
+  <squeezebox [multiple]="false">
+      <sb-item *ngFor="let item of experiences">
+          <sb-item-head>{{item.title}}</sb-item-head>
+          <sb-item-body><p>{{item.description}}</p></sb-item-body>
+      </sb-item>
+  </squeezebox>
+
+</div>

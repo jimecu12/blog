@@ -1,0 +1,25 @@
+.experience-body {
+    padding: 140px;
+    opacity: 0;
+    transition: opacity 1.5s linear;
+    max-height: 100%;
+
+    sb-item-body {
+        font-size: 13px;
+    }
+    @media screen and (max-width: 375px) {
+        padding: 100px 50px 50px 50px;
+
+        h3 {
+            font-size:18px;
+        }
+
+        sb-item-head {
+            font-size: 12px;
+        }
+
+        sb-item-body {
+            font-size: 10px;
+        }
+    }
+}

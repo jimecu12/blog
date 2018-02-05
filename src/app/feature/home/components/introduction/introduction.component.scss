@@ -1,0 +1,41 @@
+.container {
+    margin-top: 45px;
+}
+
+.image {
+    opacity: 0;
+    transition: opacity 1.5s linear;
+    @media screen and (min-width: 377px) {
+        margin-left: 38%;
+        height: 200px;
+        margin-top: 5%;
+        width: 22%;
+      }
+
+      @media screen and (max-width: 375px) {
+          margin-left: 20%;
+          height: 200px;
+          margin-top: 5%;
+          width: 60%;
+      }
+
+    .circle {
+        max-width: 100%;
+    }
+}
+
+.biography {
+    opacity: 0;
+    transition: opacity 1.5s linear;
+    text-align: center;
+    @media screen and (min-width: 377px) {
+        margin-top: 10%;
+      }
+    @media screen and (max-width: 375px) {
+        margin-top: 50px;
+
+        p {
+            font-size: 12px;
+        }
+      }
+}
